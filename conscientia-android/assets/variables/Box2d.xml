@@ -1,0 +1,4 @@
+<Box2D>
+    <Camera width="480" height="320" />
+    <World timeStep="0.016666668" velocityIterations="6" positionIterations="2"/>
+</Box2D>
