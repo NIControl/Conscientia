@@ -88,7 +88,6 @@ public class Play implements Screen {
 		
 		camera.viewportWidth = width;
 		camera.viewportHeight = height;
-		//We want the camera position closer to the box2d world and avoid to create objects bigger than 10 meters
 		camera.update();
 		
 	}
