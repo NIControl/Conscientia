@@ -43,7 +43,7 @@ public class Play implements Screen {
     
     private void readXml(){
     	try {
-			Element root = xml.parse(Gdx.files.internal("variables/Box2D.xml"));
+			Element root = xml.parse(Gdx.files.internal("variables/Box2d.xml"));
 			
 			viewportWidth = root.getChildByName("Camera").getInt("width");
 			viewportHeight = root.getChildByName("Camera").getInt("height");
